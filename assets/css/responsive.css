@@ -1,0 +1,535 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .left-side {
+        width: 18%;
+    }
+    
+    .main-body {
+        width: 82%;
+        margin-left: 18%;
+    }
+    
+    .timeline > li > .timeline-panel{
+        width: 45%;
+    }
+    .navFixedBg ul.nav li a {
+        padding: 18px 20px;
+        color: #222;
+    }
+    .video-wrap {
+        top: -36%;
+        left: -36%;
+        width: 200%;
+        height: 200%;
+    }
+    .mystats-bg {
+        height: 75%;
+    } 
+    .experience-blog-item-text {
+        height: 345px;
+    }
+
+    .bg-opacity-img {
+        height: 75%;
+    }
+
+    .lets-work-area {
+        height: 50%;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .left-side {
+        width: 18%;
+    }
+    .main-body {
+        width: 82%;
+        margin-left: 18%;
+    }
+    .person-img-hide{
+        display: none;
+    }
+    .parson-image {
+        left: 50%;
+        margin-left: -175px;
+    }
+    .menu-bar {
+        margin-top: 20px;
+    }
+    
+    .menu-bar ul li a {
+        line-height: 40px;
+    }
+    .counter i {
+        font-size: 40px;
+    }
+    .counter-up {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .mystatus-bg .wrapper .count-text {
+        font-size: 16px;
+    }
+    .counter {
+        margin-bottom: 50px;
+    }
+
+
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        padding-top: 55px;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        left: 50%;
+        font-weight: 400;
+        margin: 10px 0 20px 80px;
+        text-align: left;
+        top: 0;
+    }
+    .timeline .experience-content {
+        margin: 10px 0 0;
+        text-align: left;
+    }  
+    #about .icon-holder i {
+        left: 6%;
+    }
+    #about .icon-holder .tab-content-title {
+        left: 6%;
+    }    
+    /*-------------------------------*/
+
+
+.video-wrap {
+    top: -54%;
+    left: -54%;
+    width: 200%;
+    height: 200%;
+}
+
+.hero-area {
+    height: 100%;
+}
+
+.navbar-brand > img {
+    height: 36px;
+}
+
+ul.nav li a {
+    padding: 9px 16px;
+    font-size: 15px;
+}
+.navFixedBg ul.nav li a {
+    padding: 11px 16px;
+}
+
+header.navFixedBg .navbar-brand > img {
+    height: 36px;
+    margin-top: 3px;
+}
+ul.navbar-nav li a::before {
+    bottom: -6px;
+}
+.navFixedBg a img.logo-white{
+    height: 0;
+    opacity: 0;
+}
+header.navFixedBg {
+    height: 50px;
+}
+.hero-area-bg h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.counter ,.about-me-text-area,.form-area {
+    margin-bottom: 50px;
+}
+
+.mystats-bg {
+    height: 100%;
+}
+
+
+.experience-blog-item-text {
+    height: 320px;
+}
+
+.bg-opacity-img {
+    height: 68%;
+}
+
+.lets-work-area {
+    height: 50%;
+}
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+        /* .left-side is the original menu */
+	.left-side {
+		display:none;
+    }
+    .slicknav_menu,
+	.hero-area .profile-img,
+    .hero-area .degisnetion{
+        display:block;
+    }
+    .typed{
+        display: none;
+    }
+    .main-body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+    }
+    .what-i-do, .clints-slider, .person-img-hide{
+        display: none;
+    }
+    /* menu */
+    .slicknav_menu {
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        background-color: #111820;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .slicknav_menu .slicknav_btn {
+        background: no-repeat;
+    }
+    
+    .slicknav_menu .slicknav_btn:hover {
+        border: none;
+    }
+    
+    .slicknav_nav a:hover {
+        border-radius: 0px;
+        transition: .1s;
+        border: none;
+    }
+
+
+
+    /* start */
+    h1.my-name {
+        font-size: 70px;
+    }
+    .counter i {
+        font-size: 40px;
+    }
+    .counter-up {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .mystatus-bg .wrapper .count-text {
+        font-size: 20px;
+    }
+    .counter {
+        margin-bottom: 50px;
+    }
+    .mystatus-bg .wrapper {
+        height: 66%;
+        top: 17%;
+    }
+    .about-me-text-area .ancor-btn {float: right;margin-top: 19%;margin-left: 5px;}
+
+    .about-me-text-area .info {
+        float: left;
+    }
+    
+    .about-me-text-area {
+        overflow: hidden;
+    }
+    
+    .portfolio-menu-area ul li {
+        width: 130px;
+        display: inline-block;
+        margin: 0px;
+    }
+    .profile-img img {
+        border-radius: 50%;
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+        border: 7px solid #ddd;
+    }
+    .degisnetion {
+        color: #fff;
+        font-size: 24px;
+    }
+/*timeline*/
+    .about-timeline-style .nav.nav-tabs, .about-box-style .nav.nav-tabs {
+        max-width: 100%;
+    }
+
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        padding-top: 55px;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        left: 50%;
+        font-weight: 400;
+        margin: 10px 0 20px 80px;
+        text-align: left;
+        top: 0;
+    }
+    .timeline .experience-content {
+        margin: 10px 0 0;
+        text-align: left;
+    }
+    .icon-holder.education {
+        left: 1%;
+        top: 8%;
+    }
+    .progressbar-wrap .col-xs-3 {
+            width: 50%;
+    }
+
+    /*------------------------------*/
+    .socila-icon-wrap a {
+        width: 30px;
+        height: 30px;
+        margin: 2px;
+    }
+    .socila-icon-wrap i {
+        height: 188%;
+        font-size: 16px;
+    }
+    a.icon:hover i {
+        margin-top: -29px;
+    }
+
+    .section-title {
+        padding: 30px 0px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .section-title h2::before {
+        width: 100px;
+        margin-left: -50px;
+    }
+    .section-title h2::after {
+        top: 89%;
+    }
+
+    .experience-blog-item-text {
+        height: 320px;
+    }
+
+    .experience-blog-item::after {
+        left: 14px;
+        bottom: 0%;
+    }
+    .form-area {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .padding-bottom {
+        padding-bottom: 50px;
+    }
+    .footer-1 .content {
+        padding: 15px 0px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    h1.my-name {
+        font-size: 54px;
+    }
+    .about-me-text-area .info {
+        float: none;
+    }
+    
+    .about-me-text-area .ancor-btn {
+        margin: 5px;
+        float: left;
+    }
+    .counter {
+        margin-bottom: 30px;
+    }
+    
+    .counter i {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .counter-up {
+        font-size: 30px;
+    }
+    
+    .mystatus-bg .wrapper .count-text {
+        font-size: 15px;
+    }
+    .mystatus-bg .wrapper {
+        top: 8%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .portfolio-area-wrapper .col-xs-6{
+        width: 100%;
+    }
+    /* common style */
+    h1.my-name {
+        font-size: 32px;
+        font-weight: normal;
+    }
+    
+    .section-title h2 {
+        font-weight: normal;
+    }
+    
+    .about-me-text-area h1 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .about-me-text-area > p {
+        /* font-size: 16px; */
+        word-spacing: normal;
+        letter-spacing: normal;
+    }
+    .parson-image img {margin-top: 0%;}
+    .mystatus-bg {
+        height: 80%;
+    }
+    .mystatus-bg .wrapper .count-text {
+        font-size: 16px;
+        margin: 0;
+    }
+    .ancor-btn {
+        margin: 0px;
+    }
+    .counter-up {font-size: 24px;font-weight: normal;line-height: 1.1;}
+    .counter i {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    .counter {
+        margin-bottom: 15px;
+    }
+    .mystatus-bg .wrapper {
+        top: 5%;
+    }
+}
+/* extera small */
+@media screen and ( max-width: 479px){
+    .portfolio-area-wrapper .col-xs-6{
+        width: 100%;
+    }
+    .about-me-text-area {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    #about .icon-holder i,#about .icon-holder .tab-content-title  {
+        left: 17%;
+    }
+
+    .timeline li p.date, .timeline li p.date-inverted {
+        margin: 10px 0 20px 70px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        width: 155px;
+    }
+    .timeline > li > .timeline-panel {
+        padding: 20px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        font-size: 16px;
+    }
+
+    .nav-tabs > li {
+        display: block;
+        margin: 11px 29px;
+    }
+    .about-me-text-area {
+        margin-top: 130%;
+    }
+    
+}
+
+/* last*/
+@media screen and (max-width: 320px) {
+
+    /* body{
+        overflow-x: hidden;
+    } */
+
+    .about-me-text-area {
+        margin-top: 0px;
+    }
+
+    #about .icon-holder i,#about .icon-holder .tab-content-title  {
+        left: 17%;
+    }
+
+    .timeline li p.date, .timeline li p.date-inverted {
+        width: 135px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        font-size: 14px;
+    }
+    .nav-tabs > li {
+        display: block;
+        margin: 11px 29px;
+    }
+    .progressbar-wrap .col-xs-3, 
+    .progressbar-wrap .col-xs-6 {
+        width: 100%
+    }
+}

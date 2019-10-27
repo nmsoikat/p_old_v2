@@ -462,9 +462,9 @@ header.navFixedBg {
 
 /* extera small */
 @media screen and (max-width: 320px) {
-    body{
+    /* body{
         background-color: yellow;
-    }
+    } */
     .timeline li p.date, .timeline li p.date-inverted {
         width: 135px;
     }

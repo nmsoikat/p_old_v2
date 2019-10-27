@@ -1,14 +1,25 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    /* body{
+        background-color: red;
+    } */
     .left-side {
         width: 18%;
     }
-    
+    .mystatus-bg .wrapper {
+        top: 10%;
+    }
     .main-body {
         width: 82%;
         margin-left: 18%;
     }
-    
+    /* about me */
+    .icon-holder.education {
+        top: 14%;
+    }
+    .icon-holder {
+        left: 43.5%;
+    }
     .timeline > li > .timeline-panel{
         width: 45%;
     }
@@ -28,11 +39,9 @@
     .experience-blog-item-text {
         height: 345px;
     }
-
     .bg-opacity-img {
         height: 75%;
     }
-
     .lets-work-area {
         height: 50%;
     }
@@ -40,6 +49,10 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* body{
+        background-color: green
+    } */
+
     .left-side {
         width: 18%;
     }
@@ -57,7 +70,6 @@
     .menu-bar {
         margin-top: 20px;
     }
-    
     .menu-bar ul li a {
         line-height: 40px;
     }
@@ -65,7 +77,7 @@
         font-size: 40px;
     }
     .counter-up {
-        font-size: 40px;
+        font-size: 38px;
         line-height: 1.5;
     }
     .mystatus-bg .wrapper .count-text {
@@ -75,6 +87,13 @@
         margin-bottom: 50px;
     }
 
+    /* about me */
+    .icon-holder.education {
+        top: 13.5%;
+    }
+    .icon-holder {
+        left: 0.5%;
+    }
 
     ul.timeline:before {
         left: 40px;
@@ -115,21 +134,8 @@
         margin: 10px 0 0;
         text-align: left;
     }  
-    #about .icon-holder i {
-        left: 6%;
-    }
-    #about .icon-holder .tab-content-title {
-        left: 6%;
-    }    
     /*-------------------------------*/
 
-
-.video-wrap {
-    top: -54%;
-    left: -54%;
-    width: 200%;
-    height: 200%;
-}
 
 .hero-area {
     height: 100%;
@@ -188,8 +194,11 @@ header.navFixedBg {
 
 }
 
-/* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) {
+/* Mobile Layout: 767px. [ common code] */
+@media only screen and (max-width: 767px) { 
+    /* body{
+        background-color: blue;
+    } */
         /* .left-side is the original menu */
 	.left-side {
 		display:none;
@@ -233,12 +242,9 @@ header.navFixedBg {
         transition: .1s;
         border: none;
     }
-
-
-
     /* start */
     h1.my-name {
-        font-size: 70px;
+        font-size: 53px;
     }
     .counter i {
         font-size: 40px;
@@ -251,22 +257,15 @@ header.navFixedBg {
         font-size: 20px;
     }
     .counter {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
+    .mystatus-bg {
+        height: 70%;
     }
     .mystatus-bg .wrapper {
-        height: 66%;
-        top: 17%;
+        height: 100%;
+        top: 8%;
     }
-    .about-me-text-area .ancor-btn {float: right;margin-top: 19%;margin-left: 5px;}
-
-    .about-me-text-area .info {
-        float: left;
-    }
-    
-    .about-me-text-area {
-        overflow: hidden;
-    }
-    
     .portfolio-menu-area ul li {
         width: 130px;
         display: inline-block;
@@ -277,7 +276,7 @@ header.navFixedBg {
         width: 30%;
         height: auto;
         margin-bottom: 20px;
-        border: 7px solid #ddd;
+        border: 3px solid #c4a386;
     }
     .degisnetion {
         color: #fff;
@@ -384,140 +383,88 @@ header.navFixedBg {
     }
 }
 
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+/* Wide Mobile Layout: 480px. [ override] */
+@media only screen and (max-width: 480px) {
+    /* body{
+        background-color: orange;
+    } */
     h1.my-name {
-        font-size: 54px;
+        font-size: 30px;
     }
-    .about-me-text-area .info {
-        float: none;
+    .degisnetion {
+        font-size: 16px;
     }
-    
-    .about-me-text-area .ancor-btn {
-        margin: 5px;
-        float: left;
+    .hover-btn a {
+        font-size: 16px;
     }
-    .counter {
-        margin-bottom: 30px;
-    }
-    
     .counter i {
         font-size: 30px;
-        margin-bottom: 0px;
     }
-    
     .counter-up {
         font-size: 30px;
+        line-height: 1;
     }
-    
     .mystatus-bg .wrapper .count-text {
-        font-size: 15px;
+        font-size: 16px;
     }
-    .mystatus-bg .wrapper {
-        top: 8%;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .portfolio-area-wrapper .col-xs-6{
-        width: 100%;
-    }
-    /* common style */
-    h1.my-name {
-        font-size: 32px;
-        font-weight: normal;
-    }
-    
-    .section-title h2 {
-        font-weight: normal;
-    }
-    
-    .about-me-text-area h1 {
-        font-size: 24px;
-        font-weight: normal;
-    }
-    .about-me-text-area > p {
-        /* font-size: 16px; */
-        word-spacing: normal;
-        letter-spacing: normal;
-    }
-    .parson-image img {margin-top: 0%;}
     .mystatus-bg {
-        height: 80%;
-    }
-    .mystatus-bg .wrapper .count-text {
-        font-size: 16px;
-        margin: 0;
-    }
-    .ancor-btn {
-        margin: 0px;
-    }
-    .counter-up {font-size: 24px;font-weight: normal;line-height: 1.1;}
-    .counter i {
-        font-size: 32px;
-        margin-bottom: 0px;
-    }
-    .counter {
-        margin-bottom: 15px;
+        height: 55%;
     }
     .mystatus-bg .wrapper {
-        top: 5%;
+        top: 10%;
     }
-}
-/* extera small */
-@media screen and ( max-width: 479px){
-    .portfolio-area-wrapper .col-xs-6{
+    .portfolio-area-wrapper .col-xs-6 {
         width: 100%;
     }
-    .about-me-text-area {
-        margin-top: 100%;
+    .progressbar-wrap .col-xs-3, 
+    .progressbar-wrap .col-xs-6 {
+        width: 100%
+    }
+    .lets-work-area h1 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .lets-work-area p {
+        font-size: 14px;
+    }
+    .ancor-btn.let-work a {
+        font-size: 14px;
+    }
+    /* about me */
+    .icon-holder.education {
+        top: 13.5%;
+    }
+    .icon-holder {
+        left: 0.5%;
     }
 }
 
-@media screen and (max-width: 360px) {
-    
-    #about .icon-holder i,#about .icon-holder .tab-content-title  {
-        left: 17%;
-    }
 
-    .timeline li p.date, .timeline li p.date-inverted {
-        margin: 10px 0 20px 70px;
-    }
-    .timeline li p.date, .timeline li p.date-inverted {
-        width: 155px;
-    }
-    .timeline > li > .timeline-panel {
-        padding: 20px;
-    }
-    .timeline li p.date, .timeline li p.date-inverted {
-        font-size: 16px;
-    }
-
-    .nav-tabs > li {
-        display: block;
-        margin: 11px 29px;
-    }
-    .about-me-text-area {
-        margin-top: 130%;
-    }
-    
-}
-
-/* last*/
-@media screen and (max-width: 320px) {
-
+@media only screen and (max-width: 425px) {
     /* body{
-        overflow-x: hidden;
+        background-color: violet;
     } */
-
-    .about-me-text-area {
-        margin-top: 0px;
+    .icon-holder.education {
+        top: 6.8%;
     }
+}
 
-    #about .icon-holder i,#about .icon-holder .tab-content-title  {
-        left: 17%;
+@media only screen and (max-width: 375px) {
+    /* body{
+        background-color: violet;
+    } */
+    .icon-holder.education {
+        top: 5.8%;
     }
+}
 
+
+
+/* extera small */
+@media screen and (max-width: 320px) {
+    body{
+        background-color: yellow;
+    }
     .timeline li p.date, .timeline li p.date-inverted {
         width: 135px;
     }
@@ -528,8 +475,11 @@ header.navFixedBg {
         display: block;
         margin: 11px 29px;
     }
-    .progressbar-wrap .col-xs-3, 
-    .progressbar-wrap .col-xs-6 {
-        width: 100%
+    .icon-holder.education {
+        top: 11.5%;
     }
+    .icon-holder {
+        left: 0.5%;
+    }
+
 }

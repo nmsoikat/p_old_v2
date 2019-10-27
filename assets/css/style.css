@@ -113,7 +113,7 @@ html,body{
 /* left side bar */
 .left-side-bar .profile-img img {
     border-radius: 50%;
-    border: 5px solid #ddd;
+    border: 3px solid #c4a386;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -825,7 +825,7 @@ About End
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 58%;
+    height: 65%;
     position: relative;
     z-index: 1;
 }

@@ -20,13 +20,13 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="assets/css/slicknav.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
+
     <!-- Check Browser -->
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong>browser. Please
@@ -34,15 +34,37 @@
                  to improve your experience and security.
             </p>
         <![endif]-->
-    <div class="responsive-menu-bar">
-        <ul id="menu">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Service">Service</a></li>
-            <li><a href="#Works">Works</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </div>
+
+    <!-- ============================================-->
+    <!-- # HEADER AREA -->
+    <!--=============================================-->
+    <nav class="navbar responsive-menu-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-md-9">
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Works">Works</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ============================================-->
+    <!-- # END HEADER AREA -->
+    <!--=============================================-->
+
     <!-- ============================================-->
     <!-- # LEFT SIDE BAR -->
     <!--=============================================-->
@@ -777,7 +799,6 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/typed.js"></script>
     <script src="assets/js/jquery.waypoints.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
@@ -792,12 +813,6 @@
     <script src="assets/js/jquery.magnific-popup.js"></script>
     <script src="assets/js/circle-progress.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <script>
-        $(function () {
-            $('#menu').slicknav();
-        });
-    </script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 </body>
 

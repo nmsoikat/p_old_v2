@@ -203,7 +203,7 @@ header.navFixedBg {
 	.left-side {
 		display:none;
     }
-    .slicknav_menu,
+    .responsive-menu-bar,
 	.hero-area .profile-img,
     .hero-area .degisnetion{
         display:block;
@@ -220,27 +220,29 @@ header.navFixedBg {
         display: none;
     }
     /* menu */
-    .slicknav_menu {
-        position: fixed;
-        z-index: 5;
-        width: 100%;
-        background-color: #111820;
-        left: 0px;
-        top: 0px;
+    .responsive-menu-bar {
+        margin: 0;
+        background-color: #151c27;
+        color: #fff;
+    }
+    .navbar .navbar-toggle {
+        z-index: 6;
     }
     
-    .slicknav_menu .slicknav_btn {
-        background: no-repeat;
+    .navbar .navbar-toggle span {
+        background-color: #fff;
     }
     
-    .slicknav_menu .slicknav_btn:hover {
+    .navbar .navbar-nav li a {
+        color: #fff;
+    }
+    
+    .navbar .navbar-nav li a:hover,
+    .navbar .navbar-nav li a:focus,
+    .navbar .navbar-nav li a:active {
+        background: none;
         border: none;
-    }
-    
-    .slicknav_nav a:hover {
-        border-radius: 0px;
-        transition: .1s;
-        border: none;
+        color: #ff0;
     }
     /* start */
     h1.my-name {

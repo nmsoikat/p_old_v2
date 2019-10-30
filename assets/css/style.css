@@ -120,10 +120,16 @@ html,body{
     -o-border-radius: 50%;
 }
 
-.slicknav_menu, .responsive-menu-bar {
+/* Responsive Menu CSS */
+.responsive-menu-bar {
 	display:none;
 }
-
+.navFixedBg{
+    position: fixed;
+    top: 0px;
+    z-index: 6;
+    width: 100%;
+}
 /* ================================ */
 .hero-area {
     width: 100%;

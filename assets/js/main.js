@@ -13,6 +13,32 @@ document.addEventListener("touchstart", function () { }, false);
 
 
 
+		/*
+		========================================
+		scroll navabbar animate 
+		========================================
+		*/
+		$(document).on('scroll', function () {
+			if ($(this).scrollTop() > 50) {
+				$('.navbar').addClass('navFixedBg');
+			} else {
+				$('.navbar').removeClass('navFixedBg');
+			}
+		});
+
+		// click menu colapsed
+		$(".collapse ul li a").click(function () {
+			$(".collapse").removeClass("in")
+		});
+		/*
+		============================================
+		  scroll navabbar animate  End
+		========================================
+		 */
+
+
+
+
 
 		/*=====================
 			Waypoint star
